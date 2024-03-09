@@ -9,7 +9,7 @@ export const CoursesInfo = [
     description:
       "Comprehensive course on building websites and web applications using HTML, CSS, and JavaScript.",
     image:
-      "https://www.rinex.ai/assets/images/Backend%20development%20Rinex%20Ai.png",
+      "https://miro.medium.com/v2/resize:fit:828/format:webp/0*2WskF-iTBOvp_cQp",
     hours: "40 hours",
     whatyouwillearn: [
       "HTML5 and CSS3 fundamentals",
