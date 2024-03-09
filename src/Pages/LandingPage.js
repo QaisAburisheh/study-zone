@@ -36,6 +36,18 @@ function LandingPage() {
         <div></div>
       </div>
       {/* /backgroundImage&info */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4008493462577399"
+     crossorigin="anonymous"></script>
+<!-- first add -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4008493462577399"
+     data-ad-slot="9872521900"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
       {/* A Broad Selection Of Courses. */}
       <div className="broad_selection">
         <h4 className="color_broad_selection"> </h4>
