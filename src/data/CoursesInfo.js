@@ -9,7 +9,7 @@ export const CoursesInfo = [
     description:
       "Comprehensive course on building websites and web applications using HTML, CSS, and JavaScript.",
     image:
-      "https://miro.medium.com/v2/resize:fit:828/format:webp/0*2WskF-iTBOvp_cQp",
+      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*-hL6ZeXl_Kt0O-b82UQo9A.png",
     hours: "40 hours",
     whatyouwillearn: [
       "HTML5 and CSS3 fundamentals",
