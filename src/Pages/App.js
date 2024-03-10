@@ -26,7 +26,7 @@ const AppLayout = () => (
         crossorigin="anonymous"
       ></script>
       <script>
-        {(window.adsbygoogle = window.adsbygoogle || [].push({}))}
+        {`(window.adsbygoogle = window.adsbygoogle || []).push({})`}
       </script>
     </Helmet>
   </>
