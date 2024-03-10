@@ -25,7 +25,9 @@ const AppLayout = () => (
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4008493462577399"
         crossorigin="anonymous"
       ></script>
-      <script>{(adsbygoogle = window.adsbygoogle || [].push({}))}</script>
+      <script>
+        {(window.adsbygoogle = window.adsbygoogle || [].push({}))}
+      </script>
     </Helmet>
   </>
 );
