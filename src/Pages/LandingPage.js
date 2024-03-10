@@ -36,16 +36,7 @@ function LandingPage() {
         <div></div>
       </div>
       {/* /backgroundImage&info */}
-      <div>
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="pub-4008493462577399"
-          data-ad-slot="9872521900"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      </div>
+
       {/* A Broad Selection Of Courses. */}
       <div className="broad_selection">
         <h4 className="color_broad_selection"> </h4>
