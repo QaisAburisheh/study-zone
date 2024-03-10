@@ -12,12 +12,21 @@ import LandingPage from "./LandingPage";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const AppLayout = () => (
   <>
     <Nav />
     <Outlet />
     <Footer />
+    <Helmet>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4008493462577399"
+        crossorigin="anonymous"
+      ></script>
+      <script>{(adsbygoogle = window.adsbygoogle || [].push({}))}</script>
+    </Helmet>
   </>
 );
 
