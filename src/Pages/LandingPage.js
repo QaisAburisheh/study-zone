@@ -36,25 +36,6 @@ function LandingPage() {
         <div></div>
       </div>
       {/* /backgroundImage&info */}
-
-      {process.env.NODE_ENV === "production" && (
-        <div
-          dangerouslySetInnerHTML={{
-            __html: `
-                        <ins
-                            class="adsbygoogle"
-                            style="display:block"
-                            data-ad-client="ca-pub-4008493462577399"
-                            data-ad-slot="7805063085"
-                            data-ad-format="auto"
-                            data-full-width-responsive="true"
-                        ></ins>
-                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                    `,
-          }}
-        ></div>
-      )}
-
       {/* A Broad Selection Of Courses. */}
       <div className="broad_selection">
         <h4 className="color_broad_selection"> </h4>
