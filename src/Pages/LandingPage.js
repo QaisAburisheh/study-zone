@@ -1,6 +1,8 @@
 import React from "react";
 import CardSlider from "../Components/Card_Slider";
 import { Link } from "react-router-dom";
+import Adsense from 'react-adsense'
+
 function LandingPage() {
   const success = [
     { num: "15K", desc: "Students" },
@@ -36,7 +38,13 @@ function LandingPage() {
         <div></div>
       </div>
       {/* /backgroundImage&info */}
-
+      <Adsense.Google
+        client="pub-4008493462577399"
+        slot="9872521900"
+        style={{ display: "block" }}
+        format="auto"
+        responsive="true"
+      />
       {/* A Broad Selection Of Courses. */}
       <div className="broad_selection">
         <h4 className="color_broad_selection"> </h4>
@@ -63,7 +71,7 @@ function LandingPage() {
       {/* /Top Categories  */}
       <div className="container text-center">
         <div className="row">
-          <h2 className="section_heading_topCategories mb-5"></h2>
+          {/* <h2 className="section_heading_topCategories mb-5"></h2> */}
 
           <div className="col col_top_categories">
             <div className="card mx-auto card_topCategories">
